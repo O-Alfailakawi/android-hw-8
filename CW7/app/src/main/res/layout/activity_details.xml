@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".details">
+
+    <ImageView
+        android:id="@+id/Pic"
+        android:layout_width="249dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/picture222"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/NameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/name222"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Attack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/Pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="#CF3C3C"
+        android:text="@string/attack222"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Defence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/Pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="#229ACA"
+        android:text="@string/defence222"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/TotalTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/Defence"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="#2EC634"
+        android:layout_marginTop="50dp"
+        android:text="@string/total222"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TypeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_alignTop="@id/TotalTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+
+        android:text="@string/total222"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/PokedexTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_alignTop="@id/TypeTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:contextClickable="true"
+        android:text="Pokedex Entry"
+        android:textColor="#000000"
+        android:background="#5E35B1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

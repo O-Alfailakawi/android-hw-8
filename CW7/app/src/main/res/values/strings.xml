@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CW7</string>
+    <string name="name222">TextView</string>
+    <string name="attack222">TextView</string>
+    <string name="defence222">TextView</string>
+    <string name="total222">TextView</string>
+    <string name="picture222">TODO</string>
+    <string name="totalTV">Total:</string>
+    <string name="EmptyNameTV" />
+    <string name="EmptyTotalTV" />
+    <string name="PokemonPic">TODO</string>
+    <string name="TrashCan">TODO</string>
+    <string name="NameTV">Name:</string>
+    <string name="PokedexButton">Button</string>
+    <string name="view_pok_dex_entry">View Pokédex Entry</string>
+</resources>
